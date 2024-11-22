@@ -19,5 +19,5 @@ with st.expander('Data'):
   y
 
 with st.expander('Data visualization'):
-  st.scatter_chart(data=df, x='pressure', y='dewpoint')
+  st.scatter_chart(data=df, x='winddirection', y='windspeed')
 
