@@ -19,4 +19,4 @@ with st.expander('Data'):
   y
 
 with st.expander('Data visualization'):
-  st.scatter_chart(data=df, x='temparature', y='humidity', color='rainfall')
+  st.scatter_chart(data=df, x='dewpoint', y='humidity', color='rainfall')
