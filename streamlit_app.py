@@ -19,5 +19,5 @@ with st.expander('Data'):
   y
 
 with st.expander('Data visualization'):
-  st.scatter_chart(data=df, x='winddirection', y='windspeed')
+  st.scatter_chart(data=df, x='mintemp', y='maxtemp')
 
