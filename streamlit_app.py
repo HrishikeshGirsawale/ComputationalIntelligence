@@ -21,3 +21,8 @@ with st.expander('Data'):
 with st.expander('Data visualization'):
   st.scatter_chart(data=df, x='mintemp', y='maxtemp', color='rainfall')
 
+with st.sidebar:
+  st.header('Input')
+  mintemp = st.selectbox('Mintemp')
+  maxtemp = st.selectbox('Maxtemp')
+  temparature = st.slider("Temperature', 4.9, 32.4, 21.0)
