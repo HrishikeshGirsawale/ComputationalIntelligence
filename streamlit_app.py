@@ -17,3 +17,6 @@ with st.expander('Data'):
   st.write('y')
   y = df.rainfall
   y
+
+with st.expander('Data visualization')
+  st.scatter_chart(data=df, x='temparature', y='humidity', color='rainfall')
