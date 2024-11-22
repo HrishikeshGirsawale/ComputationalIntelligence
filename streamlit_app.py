@@ -11,7 +11,7 @@ with st.expander('Data'):
   df
 
   st.write('X')
-  X = df.drop('rainfall')
+  X = df.drop('rainfall', axis=1)
   X
 
   st.write('y')
