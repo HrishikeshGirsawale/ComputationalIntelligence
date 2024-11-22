@@ -18,5 +18,5 @@ with st.expander('Data'):
   y = df.rainfall
   y
 
-with st.expander('Data visualization')
+with st.expander('Data visualization'):
   st.scatter_chart(data=df, x='temparature', y='humidity', color='rainfall')
