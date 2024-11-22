@@ -19,5 +19,5 @@ with st.expander('Data'):
   y
 
 with st.expander('Data visualization'):
-  st.scatter_chart(data=df, x='maxtemp', y='mintemp')
+  st.scatter_chart(data=df, x='pressure', y='dewpoint', color='rainfall')
 
