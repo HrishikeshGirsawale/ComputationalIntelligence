@@ -25,4 +25,4 @@ with st.sidebar:
   st.header('Input')
   mintemp = st.selectbox('Mintemp')
   maxtemp = st.selectbox('Maxtemp')
-  temparature = st.slider("Temperature', 4.9, 32.4, 21.0)
+  temparature = st.slider('Temperature', 4.9, 32.4, 21.0)
