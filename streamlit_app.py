@@ -23,6 +23,5 @@ with st.expander('Data visualization'):
 
 with st.sidebar:
   st.header('Input')
-  mintemp = st.selectbox('Mintemp')
-  maxtemp = st.selectbox('Maxtemp')
+  rainfall = st.selectbox('Rainfall',('yes', 'no'))
   temparature = st.slider('Temperature', 4.9, 32.4, 21.0)
